@@ -1,0 +1,30 @@
+TO COLLECT DETAILS OF A PERSON
+
+class details {
+    constructor(n,a,c) {
+      this.name = n
+      this.address = a
+      this.contact = c
+    }
+}
+var x = new details('Surya','coimbatore',8888888888)
+console.log(x)
+
+-------------------------------
+
+TO CALCULATE UBER PRICE
+
+class uber {
+    constructor(a,b) {
+      this.distance = a
+      this.waiting = b
+    }
+    price()
+    {
+        console.log((this.distance*50)+(this.waiting*5))
+    }
+}
+var c = new uber(10,10)
+console.log(c)
+x.price()
+
